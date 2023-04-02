@@ -80,10 +80,10 @@ export default function Chats() {
   return (
     <div className='chats-page'>
       <div className='nav-bar'>
-        <div className='logo-tab'>
+        <div className='absolute text-4xl justify-center flex items-center text-white m-3 ml-3'>
           Sandesh
         </div>
-        <div className='logout-tab' onClick={handleLogout}>
+        <div className='absolute text-xl justify-end flex items-end text-end text-white m-3 right-3 top-1 cursor-pointer' onClick={handleLogout}>
           Logout
         </div>
       </div>

@@ -17,15 +17,15 @@ const Login = () => {
                         ></span>
                     </span>
                 </h1>
-                <div className='bg-blue-700 mt-8 w-64 lg:text-2xl lg:w-96 lg:h-20 text-white rounded-xl flex flex-row justify-center items-center h-16 gap-2 hover:scale-105 duration-300'
+                <div className='bg-blue-700 mt-8 w-64 lg:text-2xl lg:w-96 lg:h-20 text-white rounded-xl cursor-pointer flex flex-row justify-center items-center h-16 gap-2 hover:scale-105 duration-300'
                     onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}
                 >
-                    <BsGoogle className='' /> Sign in with Google
+                    <BsGoogle className='cursor-pointer' /> Sign in with Google
                 </div>
-                <div className='bg-blue-900 text-white w-64 lg:text-2xl lg:w-96 lg:h-20 rounded-xl flex flex-row justify-center items-center h-16 gap-2 hover:scale-105 duration-300'
+                <div className='bg-blue-900 text-white w-64 lg:text-2xl cursor-pointer lg:w-96 lg:h-20 rounded-xl flex flex-row justify-center items-center h-16 gap-2 hover:scale-105 duration-300'
                     onClick={() => auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}
                 >
-                    <BsFacebook /> Sign in with Facebook
+                    <BsFacebook className='cursor-pointer' /> Sign in with Facebook
                 </div>
             </div>
         </div>

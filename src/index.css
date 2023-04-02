@@ -24,14 +24,7 @@
   background-color: #002766;
 }
 
-.logo-tab {
-  position: absolute;
-  left: 22px;
-  top: 12px;
-  font-size: 32px;
-  font-weight: 700;
-  color: white;
-}
+
 
 .logout-tab {
   position: absolute;
