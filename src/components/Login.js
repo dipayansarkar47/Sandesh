@@ -5,12 +5,12 @@ import { auth } from '../firebase'
 const Login = () => {
     return (
         <div className='bg-gray-800'>
-            <div className='flex flex-col gap-5 text-white justify-center items-center h-screen'>
+            <div className='flex flex-col gap-5 text-center text-white justify-center items-center h-screen'>
                 <h1 className="mb-2 font-mono text-4xl text-gray-100 md:text-6xl">
                     Welcome to <br className="block md:hidden" />
                     <span className="relative">
-                        <span className="h-20 pt-2 font-bold overflow-x-hidden whitespace-nowrap text-brand-accent text-orange-500">
-                            Sandesh <span className="text-3xl md:text-5xl">💬</span>
+                        <span className="h-20 pt-2 font-bold overflow-x-hidden whitespace-nowrap text-brand-accent text-center text-orange-500">
+                            Sandesh<span className="text-3xl md:text-5xl">💬</span>
                         </span>
                         <span
                             className="absolute -bottom-0 left-0 -top-1 inline-block bg-gray-800 w-full animate-type will-change"
