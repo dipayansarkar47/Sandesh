@@ -6,6 +6,10 @@ import {auth} from '../firebase'
 import {useAuth} from '../contexts/AuthContext'
 import axios from 'axios'
 
+import './App.css'
+// import ChatHeader from './ChatHeader'
+// import MsgForm from './MsgForm'
+
 export default function Chats() {
   const didMountRef = useRef(false)
   const navigate = useNavigate();
