@@ -13,7 +13,7 @@ const Login = () => {
                             Sandesh <span className="text-3xl md:text-5xl">💬</span>
                         </span>
                         <span
-                            className="{`${styles.cursor} absolute -bottom-0 left-0 -top-1 inline-block bg-gray-800 w-full animate-type will-change`}"
+                            className="absolute -bottom-0 left-0 -top-1 inline-block bg-gray-800 w-full animate-type will-change"
                         ></span>
                     </span>
                 </h1>
