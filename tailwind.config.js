@@ -3,10 +3,12 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  mode: 'jit',
   theme: {
     extend: {
       animation: {
         type: 'type 2.7s ease-out .8s infinite alternate both',
+        tilt: 'tilt 10s infinite linear',
       },
       keyframes: {
         type: {
@@ -21,6 +23,17 @@ module.exports = {
           '75%, 80%': { transform: 'translateX(8ch)' },
           '85%, 90%': { transform: 'translateX(9ch)' },
           '95%, 100%': { transform: 'translateX(11ch)' },
+        },
+        tilt: {
+          '0%, 50%, 100%': {
+            transform: 'rotate(0deg)',
+          },
+          '25%': {
+            transform: 'rotate(0.5deg)',
+          },
+          '75%': {
+            transform: 'rotate(-0.5deg)',
+          },
         },
       },
     },
