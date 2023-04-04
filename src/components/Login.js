@@ -24,10 +24,10 @@ const Login = () => {
                 </div>
 
 
-                <h1 className="mb-4 font-mono text-4xl text-gray-100 md:text-6xl">
+                <h1 className="mb-4  font-mono text-4xl text-gray-100 md:text-6xl">
                     Bhejo Apna <br className="block md:hidden" />
-                    <span className="relative">
-                        <span className="h-20 pt-2 font-bold overflow-x-hidden whitespace-nowrap text-brand-accent text-center text-pink-700">
+                    <span className="relative space-y-4">
+                        <span className="h-20  pt-2 font-bold overflow-x-hidden whitespace-nowrap text-brand-accent text-center text-pink-700">
                             Sandesh <span className="text-3xl md:text-5xl">💬</span>
                         </span>
                         <span
