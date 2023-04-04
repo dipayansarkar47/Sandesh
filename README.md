@@ -4,7 +4,8 @@
     <img src="https://cdn-icons-png.flaticon.com/512/134/134932.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Sandesh</h3>
+  <h3 align="center">Sandesh💬</h3>
+  <h6 align="center">(Beta v1.2)</h6>
 
   <p align="center">
     Bhejo Apna Sandesh in Real-Time
@@ -12,6 +13,7 @@
     <br/>
     <a href="https://sandeshh.netlify.app/"><strong>View Live Demo »</strong></a>
     <br/>
+  <p align="center"><b>🚀UPDATE[v1.2]:</b>  Minor Bug Fixes with the ability to send Photos/Files </p>
     <br/>
   </p>
 </p>
